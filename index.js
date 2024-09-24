@@ -9,6 +9,11 @@
 // E. Delete the last fruit in the array.
 // F. Log the updated array.
 
+let fruits = ["apple", "banana", "cherry"]
+console.log(fruits[1])
+fruits[2] = "orange"
+fruits.push("grape")
+console.log(fruits)
 
 
 // TASK 2: Objects - Create, Read, Update, Delete (CRUD)
@@ -19,6 +24,16 @@
 // E. Delete the `age` property from the object.
 // F. Log the updated student object.
 
+let student = {
+   name:"Mason",
+   age: 18,
+   grade: ""
+}
+console.log(student.age)
+student.grade = "A+"
+student.isGraduated = true
+delete student.age
+console.log(student)
 
 
 // TASK 3: Functions - Create and Call Functions
